@@ -39,7 +39,7 @@ const Admin = ({ searchCase }) => {
   const [numPage, setNumPage] = useState(1);
   const [image_1, setImage_1] = useState("");
   const [imageIsOpen, setImageIsOpen] = useState(false);
-  const [emergency, setEmergency] = useState("false");
+  const [emergencyCase, setEmergencyCase] = useState("false");
   // ------------------------------------------------
 
   const uploadImage = (imageFile) => {
@@ -105,7 +105,7 @@ const Admin = ({ searchCase }) => {
           title,
           case_description,
           TheAmountRequired,
-          emergency,
+          emergencyCase,
         },
         {
           headers: {
@@ -122,7 +122,7 @@ const Admin = ({ searchCase }) => {
             title,
             case_description,
             TheAmountRequired,
-            emergency,
+            emergencyCase,
           })
         );
         getAllCases();

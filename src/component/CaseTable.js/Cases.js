@@ -43,7 +43,7 @@ const Cases = ({
   const [message, setMessage] = useState("");
   const [imageselected, setImageSelected] = useState("");
   const [numUser, setNumUser] = useState(0);
-  const [emergency, setEmergency] = useState("false");
+  const [emergencyCase, setEmergencyCase] = useState("false");
 
   const [numPage, setNumPage] = useState(1);
   const [image_1, setImage_1] = useState("");
@@ -117,7 +117,7 @@ const Cases = ({
           title,
           case_description,
           TheAmountRequired,
-          emergency,
+          emergencyCase,
         },
         {
           headers: {
@@ -134,7 +134,7 @@ const Cases = ({
             title,
             case_description,
             TheAmountRequired,
-            emergency,
+            emergencyCase,
           })
         );
         getAllCases();
@@ -240,7 +240,7 @@ const Cases = ({
   const updateCaseByIdForEmergency = async (id) => {
     try {
       const result = await axios.put(`https://safe-houseforyou.herokuapp.com/admin/emergency/${id}`, {
-        emergency: "true",
+        emergencyCase: "true",
       });
       getAllCases();
     } catch (error) {
@@ -251,7 +251,7 @@ const Cases = ({
   const updateCaseByIdForNotEmergency = async (id) => {
     try {
       const result = await axios.put(`https://safe-houseforyou.herokuapp.com/admin/emergency/${id}`, {
-        emergency: "false",
+        emergencyCase: "false",
       });
       getAllCases();
     } catch (error) {
@@ -402,7 +402,7 @@ const Cases = ({
                       />
                     </td>
                     <td className={element.id}>
-                      {element.emergency == "true" ? (
+                      {element.emergencyCase == "true" ? (
                         <>
                           <IoCheckmarkDoneSharp
                             onClick={() => {
