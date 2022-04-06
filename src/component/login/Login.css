@@ -1,0 +1,173 @@
+.loginpage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.left-login {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.right-login {
+  flex: 1.5;
+  background-color: #f0d304;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90.5vh;
+
+  margin-top: 59px;
+}
+
+.google {
+  width: 20em;
+}
+
+.sign {
+  color: #25211d;
+  font-size: 3.7ch;
+
+  font-family: "Gill Sans", sans-serif;
+}
+.link {
+  color: black;
+}
+.sent:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+  cursor: pointer;
+}
+.sent {
+  width: 8em;
+  background-color: white;
+
+  font-family: system-ui;
+  height: 35px;
+  border-radius: 5px;
+
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  font-size: 1.7ch;
+  margin-top: 40px;
+}
+
+.account {
+  font-size: 1.7ch;
+  font-family: system-ui;
+  color: rgb(117, 117, 117);
+}
+.emai:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+.emai {
+  margin-top: 20px;
+  height: 3em;
+  width: 21em;
+  padding: 5px;
+  text-align: left;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: #262524;
+  border-radius: 5px;
+}
+
+.pass:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+.newhere {
+  font-size: 2.4em;
+  color: #25211d;
+  font-family: sans-serif;
+  margin-top: 150px;
+}
+.wordSign {
+  color: white;
+  font-size: 1.3em;
+  font-family: system-ui;
+  text-align: center;
+  margin-top: 2em;
+}
+
+input {
+  padding: 5px;
+}
+
+.pass {
+  text-align: left;
+  height: 3em;
+  padding: 5px;
+  width: 21em;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  border-radius: 5px;
+}
+.but:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+  cursor: pointer;
+}
+
+.or {
+  width: 35%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 12px 0 12px;
+}
+
+.or span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.signgoogle {
+  margin-top: 10px;
+
+  color: #b8b6b5;
+  font-size: 1em;
+}
+.but {
+  height: 35px;
+
+  width: 8em;
+
+  font-size: 1.7ch;
+
+  border-radius: 5px;
+
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  background-color: #f0d304;
+  color: black;
+}
+.message {
+  color: red;
+  font-size: 1.2em;
+}

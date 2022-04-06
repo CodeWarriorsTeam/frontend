@@ -1,0 +1,152 @@
+.allCasesSection {
+ width: 100%;
+ height: 100%;
+ display: grid;
+ grid-template-columns:repeat(4,270px) ;
+  grid-template-rows:repeat(4,210px,100px,80px) ;
+ align-items: center;
+ justify-content: space-around;
+ margin-top: 3%;
+ row-gap: 5%;
+  
+}
+.cardCases{
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 210px 100px 80px;
+  grid-template-areas:"image" "text" "stats" ;
+  font-family: roboto;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+
+
+.cardImage{
+  grid-area: image;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+ background-size: cover;
+ height:210px;
+ width: 270px;
+
+}
+
+.cardText{
+  grid-area: text;
+  margin: 25px;
+}
+
+.cardText .dataSpan{
+  color: #F0D304;
+  font-size: 18px;
+}
+
+.cardText p{
+  color: rgb(38,37,36) ;
+  font-size: 20px;
+  font-weight: 300;
+}
+.cardText h2{
+  margin-top: 0px;
+  font-size: 28px;
+}
+.cardState{
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #F0D304;
+}
+
+.cardState .stat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: rgb(38,37,36) ;
+}
+.cardState .type{
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.cardState .value {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.cardState .border{
+  border-left: 1px solid  #ad9d22;
+  border-right: 1px solid  #ad9d22;
+}
+
+
+.cardCases:hover{
+ transform: scale(1);
+ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+.divPagination{
+  margin-bottom: 2%;
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+
+.buttonIconPag{
+  font-size: 20px;
+}
+
+
+
+.cardText p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+
+.PaginationButton{
+  padding: 5px 20px;
+  color: rgb(38,37,36);
+  background-color: #F0D304;
+  text-decoration: none;
+  font-weight: 900;
+  box-shadow: 6px 6px 0 #000;
+  transition: 0.5s;
+  transform: skewX(15deg);
+}
+
+.backPaginationButton{
+  padding: 5px 20px;
+  color: rgb(38,37,36);
+  background-color: #F0D304;
+  text-decoration: none;
+  font-weight: 900;
+  box-shadow: 6px 6px 0 #000;
+  transition: 0.5s;
+  transform: skewX(15deg);
+}
+
+.divPagination a:hover{
+padding: 5px 22px;
+box-shadow: 7px 7px 0 #F0D304;
+}
+
+
+

@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.gallery {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto=fit, minmax(250px, ifr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+}
+
+.km-custom-widget-background-color {
+  background: #f0d304 !important;
+}
+.FormGroup {
+  padding: 0;
+  border-style: none;
+  background-color: #f0d304;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #829fff;
+  border-radius: 4px;
+  color: #25211d;
+}
+
+.FormRow {
+  color: #25211d;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 15px;
+  border-top: 1px solid #f0d304;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+  color: #25211d;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+  color: #25211d;
+}
+
+.Pay {
+  font-size: 16px;
+
+  height: 40px;
+  margin: 40px 15px 0;
+  background-color: #f0d304;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #ffb9f6;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  will-change: transform, background-color, box-shadow;
+  border: none;
+}
+
+.Pay:active {
+  background-color: #d782d9;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #e298d8;
+  transform: scale(0.99);
+}
+
+.App {
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 25%;
+}
+
+.containerPayment {
+  width: 750px;
+  height: 500px;
+  border: 1px solid;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: space-around;
+}
+
+.containerPayment h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #25211d;
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.containerPayment h1::after {
+  content: "";
+  height: 5px;
+  width: 300px;
+
+  background-color: #f0d304;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+.cardsImage img {
+  width: 100px;
+  height: 60px;
+}
+
+.divInfoName {
+  display: flex;
+}
+
+.Fname {
+  width: 50%;
+
+  margin-right: 40px;
+}
+.Lname {
+  width: 50%;
+}
+.input-filed {
+  border: 1px solid #999;
+}
+.input-filed input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+}
+.input-filed input::placeholder {
+  font-size: 15px;
+}
+.Selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.APay {
+  background-color: #f0d304;
+  color: rgb(38, 37, 36);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  transition: 0.5;
+  border: none;
+}
+
+.APay:hover {
+  background-color: #dbca49;
+  cursor: pointer;
+}
+
+.successDonate {
+  border: #f0d304 solid 1px;
+}
+
+.successDonate h2 {
+  font-size: 35px;
+  color: #25211d;
+  font-size: 1.7rem;
+  font-weight: 200;
+  text-align: center;
+  font-style: italic;
+}
+
+.notSuccess {
+  background-color: #f0d304 !important;
+  color: rgb(38, 37, 36) !important ;
+}
+
+.Toastify__progress-bar--success {
+  background-color: rgb(38, 37, 36) !important;
+}
+
+.Toastify__toast-icon {
+  color: rgb(38, 37, 36) !important ;
+}
+
+.notError {
+  background-color: #e01e1e !important;
+  color: #f5efed !important ;
+}
+
+.ElementsApp .ElementsApp .InputElement {
+  color: rgb(202, 12, 12) !important ;
+}

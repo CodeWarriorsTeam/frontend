@@ -1,0 +1,108 @@
+.newpage {
+  height: 100%;
+  width: 100%;
+}
+
+.category:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+.category {
+  height: 30px;
+  width: 20%;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  border-radius: 5px;
+}
+
+.image:hover {
+    border-top: 1px rgb(0, 0, 0) solid;
+    border-right: 1px rgb(0, 0, 0) solid;
+    border-left: 1px rgb(0, 0, 0) solid;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+  }
+  .image {
+    height: 30px;
+    width: 20%;
+    border-top: 1px rgba(116, 105, 105, 0.342) solid;
+    border-right: 1px rgba(138, 127, 127, 0.342) solid;
+    border-left: 1px rgba(138, 127, 127, 0.342) solid;
+    border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .title:hover {
+    border-top: 1px rgb(0, 0, 0) solid;
+    border-right: 1px rgb(0, 0, 0) solid;
+    border-left: 1px rgb(0, 0, 0) solid;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+  }
+  .title {
+    height: 30px;
+    width: 20%;
+    border-top: 1px rgba(116, 105, 105, 0.342) solid;
+    border-right: 1px rgba(138, 127, 127, 0.342) solid;
+    border-left: 1px rgba(138, 127, 127, 0.342) solid;
+    border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+    color: black;
+    border-radius: 5px;
+  }
+  .amount:hover {
+    border-top: 1px rgb(0, 0, 0) solid;
+    border-right: 1px rgb(0, 0, 0) solid;
+    border-left: 1px rgb(0, 0, 0) solid;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+  }
+  .amount {
+    height: 30px;
+    width: 20%;
+    border-top: 1px rgba(116, 105, 105, 0.342) solid;
+    border-right: 1px rgba(138, 127, 127, 0.342) solid;
+    border-left: 1px rgba(138, 127, 127, 0.342) solid;
+    border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+    color: black;
+    border-radius: 5px;
+  }
+  .description:hover {
+    border-top: 1px rgb(0, 0, 0) solid;
+    border-right: 1px rgb(0, 0, 0) solid;
+    border-left: 1px rgb(0, 0, 0) solid;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+  }
+  .description {
+    height: 30px;
+    width: 20%;
+    border-top: 1px rgba(116, 105, 105, 0.342) solid;
+    border-right: 1px rgba(138, 127, 127, 0.342) solid;
+    border-left: 1px rgba(138, 127, 127, 0.342) solid;
+    border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .new:hover {
+    border-top: 1px rgb(0, 0, 0) solid;
+    border-right: 1px rgb(0, 0, 0) solid;
+    border-left: 1px rgb(0, 0, 0) solid;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+    cursor: pointer;
+  }
+  .new {
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    border-top: 1px rgba(116, 105, 105, 0.342) solid;
+    border-right: 1px rgba(138, 127, 127, 0.342) solid;
+    border-left: 1px rgba(138, 127, 127, 0.342) solid;
+    border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+    background-color: #f5c323;
+    color: black;
+    font-size: 2ch;
+  }
+  

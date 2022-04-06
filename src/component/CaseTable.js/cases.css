@@ -1,0 +1,256 @@
+updater.all {
+  height: 100%;
+  background: linear-gradient(to left, #fcfcfc 85%, rgb(56, 52, 52) 15%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.head {
+  font-size: 100%;
+}
+.addImage1 {
+  transform: translate(2em, 24em);
+}
+
+.imageLink6 {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.3em;
+  transform: translate(1.5em, 12.5em);
+}
+
+.imageIcon6 {
+  cursor: pointer;
+  font-size: 1.2em;
+  color: rgb(128, 127, 127);
+  transform: translate(3.6em, 12.2em);
+}
+.imaget1:hover {
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+}
+.upload2 {
+  margin-left: 1%;
+  transform: translate(0em, 0.2em);
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+  width: 10%;
+}
+.updater {
+  height: 30px;
+  width: 60%;
+  border-radius: 5px;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  background-color: rgba(136, 128, 128, 0.342);
+  color: black;
+  font-size: 2ch;
+  margin-left: 18%;
+  background-color: #f0d304;
+  cursor: pointer;
+}
+
+.upload2:active {
+  background-color: #f0d304;
+}
+.upload1 {
+  font-size: 1.3em;
+}
+.imaget1 {
+  margin-left: 18%;
+  height: 32px;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  border-radius: 5px;
+  width: 50%;
+}
+.imageIcon2 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(1.2em, 15em);
+}
+.imageIcon3 {
+  font-size: 1.3em;
+  color: rgb(128, 127, 127);
+  transform: translate(3.2em, 14.8em);
+}
+.voluntlink2 {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(3.5em, 1.9em);
+}
+.userlink2 {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(3.6em, 1.5em);
+}
+.caselink2 {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(3.6em, 1.2em);
+}
+.caseicon2 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(0em, 2.1em);
+}
+.usericon2 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-1em, 2.4em);
+}
+.volicon2 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-0.8em, 2.6em);
+}
+.add {
+  font-size: 2em;
+  transform: translate(9.4em, 1.8em);
+}
+.add:active {
+  color: #f0d304;
+}
+.back {
+  transform: translate(47em, -20em);
+}
+.next {
+  transform: translate(14em, -20em);
+  margin-left: 40%;
+}
+.add:hover {
+  cursor: pointer;
+}
+.table {
+  margin-left: 22%;
+  width: 20%;
+  transform: translate(0em, -24em);
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+.deleteIcon :hover {
+  cursor: pointer;
+  float: left;
+}
+
+.deleteIcon {
+  font-size: 1.1em;
+  color: red;
+  float: left;
+}
+.imag {
+  font-size: 0.6em;
+}
+.editIcon {
+  float: right;
+  color: rgb(28, 28, 241);
+  font-size: 1.1em;
+}
+.editIcon :hover {
+  cursor: pointer;
+  float: right;
+}
+
+.id {
+  font-size: 0.8em;
+  width: 3%;
+}
+.categor {
+  font-size: 0.8em;
+
+  width: 5%;
+}
+.tit1 {
+  width: 9%;
+  font-size: 0.8em;
+}
+.tit {
+  font-size: 0.8em;
+}
+.amout {
+  font-size: 0.8em;
+
+  width: 12%;
+}
+.img2 {
+  width: 30%;
+  font-size: 0.8em;
+}
+.descr {
+  font-size: 0.9em;
+}
+.donatio {
+  font-size: 0.8em;
+
+  width: 5%;
+}
+.don {
+  font-size: 0.8em;
+
+  width: 5%;
+}
+.oper {
+  font-size: 0.8em;
+}
+.link22 {
+  margin-bottom: 26%;
+}
+
+.divPaginationAdmin {
+  margin-bottom: 2%;
+  margin-top: 25%;
+
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.PaginationButtonAdmin {
+  transform: translate(28em, 3em);
+  padding: 3px 10px;
+  color: #f5efed;
+  background-color: #25211d;
+  text-decoration: none;
+  font-weight: 900;
+  box-shadow: 6px 6px 0 #000;
+  transition: 0.5s;
+}
+
+.backPaginationButtonAdmin {
+  padding: 3px 10px;
+  transform: translate(28em, 3em);
+
+  color: #f5efed;
+  background-color: #25211d;
+  text-decoration: none;
+  font-weight: 900;
+  box-shadow: 6px 6px 0 #000;
+  transition: 0.5s;
+}
+
+.divPagination a:hover {
+  padding: 3px 13px;
+  box-shadow: 7px 7px 0 #424240;
+}

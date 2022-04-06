@@ -1,0 +1,172 @@
+
+
+
+.admin{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-top: 10%;
+  margin-left: 2.5%;
+}
+
+.nav {
+  
+  position: absolute;
+ 
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(43, 41, 41);
+  opacity: 0.6;
+}
+
+.nav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.a:hover {
+  color: #f0d40470;
+}
+
+.iconHome {
+  color: rgb(207, 194, 12);
+}
+
+
+.titleLogo {
+  color: #fff;
+  float: left;
+  padding: 0.6em;
+  margin-left: 5%;
+}
+
+
+
+.ul {
+  margin-right: 5%;
+  float: right;
+}
+
+.ul li {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+}
+
+.ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logoutAdmin{
+  font-size: 1.5em;
+  color: white;
+  float: right;
+ 
+  transform: translate(-1em,0.4em);
+}
+
+#Logout{
+  height: 58.4px;
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+ 
+ 
+}
+.iconLogout{
+  font-size: 1.5em;
+  color: white;
+  transform: translate(0.5em,0.3em);
+ 
+ 
+}
+.iconLogout:hover{
+  cursor: pointer;
+}
+.logoutAdmin:hover{
+  cursor: pointer;
+}
+.dashicon{
+ font-size: 1.5em;
+transform: translate(1em,0.2em);
+color: white;
+}
+
+
+
+.ul li:hover {
+  background: #F0D304;
+}
+.ul li:hover .drop {
+  display: block;
+}
+.ul .drop li:hover {
+  background: #00000070;
+}
+.drop {
+  background: #ffe101;
+  position: absolute;
+  display: none;
+  top: 57px;
+  left: 0px;
+  z-index: 10;
+  width: 165px;
+  color: #000;
+}
+
+.drop li {
+  border: 1px solid rgb(0, 0, 0);
+  display: block;
+  color: rgb(0, 0, 0);
+}
+
+#searchInputNav {
+
+  background: transparent;
+  height: 30px;
+  border-radius: 5px;
+margin-left: 7%;
+
+  align-items: center;
+  transition: 1s;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+#searchInputNav:hover  {
+  width: 200px;
+  height:30px;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#searchInputNav {
+  margin-top: 15px;
+  text-align: center;
+  background: transparent;
+  border: solid gray 1px;
+  outline: none;
+  width: 65px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 1s;
+}
+
+.iconHome {
+  color: #ffef14;
+}
+
+.searchInputNav::placeholder{
+ color: white;
+ text-align: center;
+ 
+}

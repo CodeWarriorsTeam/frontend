@@ -1,0 +1,392 @@
+.links2 {
+  margin-bottom: 18%;
+}
+.images5 {
+  background-color: yellow;
+  margin-top: 5%;
+  transform: translate(40em, -33em);
+  width: 20%;
+  height: 80px;
+  border-radius: 4px;
+}
+.images4 {
+  background-color: rgb(0, 216, 0);
+  margin-top: 5%;
+  transform: translate(62em, -23.9em);
+  width: 20%;
+  height: 80px;
+  border-radius: 4px;
+}
+.alll {
+  height: 100%;
+  background: linear-gradient(to left, #fcfcfc 85%, rgb(56, 52, 52) 15%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.images3 {
+  background-color: rgb(255, 122, 211);
+  margin-top: 5%;
+  transform: translate(18em, -14.6em);
+  width: 20%;
+  height: 80px;
+  border-radius: 4px;
+}
+.imageIcon5 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-2.9em, 8em);
+}
+.imageIcon4 {
+  cursor: pointer;
+
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(3.5em, 9.5em);
+}
+.voluntlink {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(3.5em, 8.1em);
+}
+.usericon {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-0.8em, 5.6em);
+}
+.allLinks {
+  margin-bottom: 2.8%;
+}
+.caseicon {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-1em, 4.6em);
+}
+.userlink {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(3.6em, 6.7em);
+}
+.volicon3 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-2.7em, 6.8em);
+}
+
+.caselink {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(3.6em, 5.5em);
+}
+.uplo {
+  width: 7%;
+  height: 29px;
+  cursor: pointer;
+}
+.uplo:active {
+  background-color: #f0d304;
+}
+.update1 {
+  width: 10%;
+  cursor: pointer;
+}
+.update1:hover {
+  background-color: #f0d304;
+}
+.imaget:hover {
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+}
+
+.imaget {
+  margin-left: 8%;
+  height: 32px;
+  margin-top: 5%;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  border-radius: 5px;
+  width: 50%;
+}
+.i {
+  transform: translate(11.4em, -1em);
+  font-size: 1.2em;
+}
+.imageIcon {
+  font-size: 2em;
+  color: white;
+}
+
+.imageIcon:hover {
+  cursor: pointer;
+}
+
+.uploadIcon {
+  font-size: 1.3em;
+  height: 1em;
+}
+
+.uploadIcon:hover {
+  cursor: pointer;
+}
+.uploadImageButton {
+  width: 7%;
+  height: 28px;
+  margin-left: 10px;
+}
+.uploadImageButton:active {
+  background-color: #f0d304;
+}
+
+.addImage {
+  height: 30px;
+  margin-left: 25%;
+  transform: translate(18em, -2.5em);
+  width: 17%;
+}
+.imm {
+  transform: translate(17em, -35em);
+  width: 40%;
+  height: 40%;
+}
+.addImage:hover {
+  cursor: pointer;
+}
+
+.upload1 {
+  cursor: pointer;
+  width: 2em;
+}
+th {
+  color: white;
+  background-color: #262524;
+}
+.ttt:nth-child(odd) {
+  background-color: #ebebeb;
+}
+.next:hover {
+  cursor: pointer;
+  background: #68666485;
+}
+.back:hover {
+  cursor: pointer;
+  background: #68666485;
+}
+.back {
+  width: 3%;
+  background-color: #ebebeb;
+  font-size: 100%;
+}
+.next {
+  width: 3%;
+  background-color: #ebebeb;
+  font-size: 100%;
+}
+.arrow {
+  float: right;
+}
+
+.model {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+.plus {
+  height: 2em;
+  width: 2em;
+  float: right;
+  color: white;
+  font-size: 1.2em;
+  transform: translate(0em, -0.7em);
+  cursor: pointer;
+  margin-top: 10px;
+}
+.countCase {
+  font-size: 1.6em;
+  transform: translate(1em, 0.4em);
+}
+.countCase2 {
+  font-size: 1.4em;
+  transform: translate(3em, -0.8em);
+}
+.countVolunteer2 {
+  font-size: 1.4em;
+  transform: translate(2.8em, -0.7em);
+  color: black;
+}
+.countVolunteer {
+  font-size: 1.8em;
+  transform: translate(0.85em, 0.4em);
+}
+.category:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+textarea {
+  padding: 5px;
+}
+.category {
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 18%;
+}
+
+.image22:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.image22 {
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  border-radius: 5px;
+  width: 54%;
+  height: 32px;
+  margin-left: 18%;
+}
+
+.title:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.title {
+  width: 60%;
+  height: 30px;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  border-radius: 5px;
+  margin-left: 18%;
+}
+.amount:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.amount {
+  width: 60%;
+  height: 30px;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  margin-left: 18%;
+
+  border-radius: 5px;
+}
+.description:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.description {
+  width: 60%;
+  height: 30px;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  color: black;
+  margin-left: 18%;
+  border-radius: 5px;
+}
+
+.new:hover {
+  border-top: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  border-left: 1px rgb(0, 0, 0) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+  cursor: pointer;
+}
+.new {
+  height: 30px;
+  width: 60%;
+  border-radius: 5px;
+  border-top: 1px rgba(116, 105, 105, 0.342) solid;
+  border-right: 1px rgba(138, 127, 127, 0.342) solid;
+  border-left: 1px rgba(138, 127, 127, 0.342) solid;
+  border-bottom: 1px rgba(138, 127, 127, 0.342) solid;
+  background-color: rgba(136, 128, 128, 0.342);
+  color: black;
+  font-size: 2ch;
+  margin-left: 18%;
+  background-color: #f0d304;
+}
+
+.countUser {
+  height: 1.6em;
+  width: 2em;
+  float: left;
+  transform: translate(1.6em, 0.2em);
+  margin-top: 10px;
+}
+.case {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transform: translate(1.5em, -0.4em);
+}
+.line {
+  border-bottom: 1px solid rgb(2, 2, 2);
+  padding-bottom: 27px;
+}
+.line2 {
+  border-bottom: 1px solid rgb(2, 2, 2);
+  transform: translate(0em, -2em);
+}
+.line1 {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  transform: translate(0em, -2.1em);
+}
+
+.user2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transform: translate(-1.1em, 3.3em);
+}
+.volunter {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transform: translate(1.4em, -0.3em);
+}
+.countUserPrg {
+  font-size: 1.4em;
+  float: left;
+  font-weight: bold;
+  transform: translate(1.8em, 0.2em);
+  margin-top: 10px;
+}

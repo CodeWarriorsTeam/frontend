@@ -1,0 +1,130 @@
+.all2 {
+  height: 100%;
+  background: linear-gradient(to left, #fcfcfc 85%, rgb(56, 52, 52) 15%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.table1 {
+  margin-top: 9%;
+  padding-left: 22%;
+  padding-right: 7%;
+}
+
+th,
+td {
+  padding: 10px;
+  white-space: 20px;
+  text-align: left;
+}
+.imageIcon9 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-11.5em, 11.5em);
+}
+.imageLink9 {
+  cursor: pointer;
+
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+
+  float: left;
+  transform: translate(3.5em, 13.5em);
+}
+.voluntlink7 {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(-6.7em, 10.7em);
+}
+.usicon7 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-13.8em, 6.8em);
+}
+.casicon7 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-12.7em, 4.6em);
+}
+.userlink7 {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(-4em, 8em);
+}
+.volicon7 {
+  font-size: 1.4em;
+  color: rgb(128, 127, 127);
+  transform: translate(-15em, 9.1em);
+}
+
+.caselink7 {
+  color: rgb(128, 127, 127);
+  text-decoration: none;
+  font-size: 1.2em;
+  float: left;
+  transform: translate(-1.3em, 5.5em);
+}
+.tt:nth-child(odd) {
+  background-color: #ebebeb;
+}
+
+.id3 {
+  font-size: 0.9em;
+  width: 3%;
+}
+.first3 {
+  font-size: 0.9em;
+  width: 10%;
+}
+.last3 {
+  width: 15%;
+  font-size: 0.9em;
+}
+.em3 {
+  font-size: 0.9em;
+  width: 20%;
+}
+.addres3 {
+  width: 50%;
+  font-size: 0.9em;
+}
+.phone3 {
+  font-size: 0.9em;
+  width: 20%;
+}
+
+.id4 {
+  font-size: 0.9em;
+  width: 3%;
+}
+.first4 {
+  font-size: 0.9em;
+  width: 5%;
+}
+.last4 {
+  font-size: 0.9em;
+  width: 10%;
+}
+.cont4 {
+  font-size: 0.9em;
+  width: 5%;
+}
+.em4 {
+  font-size: 0.9em;
+  width: 2%;
+}
+.addres3 {
+  font-size: 0.9em;
+  width: 2%;
+}
+.phone3 {
+  font-size: 0.9em;
+  width: 2%;
+}
